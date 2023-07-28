@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.not-found-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  width: 500px;
+  height: 500px;
+}
+.not-found-head {
+  font-family: roboto;
+  color: #616e7c;
+}
+.not-found-para {
+  font-size: 15px;
+  font-family: roboto;
+}

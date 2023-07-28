@@ -1,0 +1,29 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.home-con {
+  display: flex;
+  flex-direction: column;
+}
+.home-img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.home-sm-img {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-sm-img {
+    display: none;
+  }
+}
+.home-lg-img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .home-lg-img {
+    display: none;
+  }
+}
