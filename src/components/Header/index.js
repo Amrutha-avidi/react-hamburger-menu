@@ -25,7 +25,7 @@ const Header = () => (
       className="popup-content"
     >
       {close => (
-        <div>
+        <div className="modal-container">
           <button
             type="button"
             data-testid="closeButton"
